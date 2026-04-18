@@ -1,4 +1,4 @@
-# rag-vs-fine-tuning
+# Retrieval-Augmented Generation (RAG) / Fine Tuning
 Comparing RAG and Fine-tuning mechanisms on LLaMA 3.2-1B for Question Answering(on SciQ dataset)
 
 This project presents a comparative study between Retrieval-Augmented Generation (RAG) and fine-tuning approaches using a domain-specific dataset. The goal is to evaluate how each method performs in terms of accuracy and effectiveness when applied to scientific question-answering tasks.
