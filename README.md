@@ -3,15 +3,13 @@ Comparing RAG and Fine-tuning mechanisms on LLaMA 3.2-1B for Question Answering(
 
 This project presents a comparative study between Retrieval-Augmented Generation (RAG) and fine-tuning approaches using a domain-specific dataset. The goal is to evaluate how each method performs in terms of accuracy and effectiveness when applied to scientific question-answering tasks.
 
-**Dataset
-**
+**Dataset**
 We use the SciQ dataset, a scientific-domain dataset consisting of crowdsourced multiple-choice questions, supporting context passages
 and answer annotations.
 
 This dataset is particularly suitable for evaluating models in knowledge-intensive and context-aware tasks.
 
-**Methodology
-**
+**Methodology**
 
 1. Retrieval-Augmented Generation (RAG)
 Combines retrieval mechanisms with generative models
@@ -21,12 +19,10 @@ Enhances response quality with external knowledge grounding
 Pretrained language models are fine-tuned directly on the SciQ dataset
 Focuses on adapting model weights to the domain-specific distribution
 
-**Model Selection
-**
+**Model Selection**
 All models used in this study—including language models and embedding models were selected after a comprehensive review of relevant research papers and empirical evaluation.
 
-**Hyperparameter Tuning
-**
+**Hyperparameter Tuning**
 For fine-tuning, hyperparameters were carefully optimized. For example:
 
 Learning rates tested:
@@ -36,8 +32,7 @@ Learning rates tested:
 Selected learning rate: 2e-5
 Chosen based on achieving the highest accuracy during experiments. This systematic approach was applied across all major configuration choices.
 
-**Objective
-**
+**Objective**
 The primary objective is to:
 
 1. Compare performance between RAG and fine-tuned models
