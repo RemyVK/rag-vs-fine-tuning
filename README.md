@@ -39,4 +39,4 @@ The primary objective is to:
 2. Analyze trade-offs between retrieval-based and parametric knowledge
 3. Identify the most effective approach for domain-specific QA tasks
 
-If you're interested in the full research details—especially regarding model selection and experimental design—feel free to reach out: vargheseremy97@gmail.com
+If you're interested in the full research details, regarding model selection and experimental design please reach out: vargheseremy97@gmail.com
